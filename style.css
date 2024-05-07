@@ -1,0 +1,77 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    color: #555;
+    background-color: white;
+    
+}
+
+.skip-link {
+    position: absolute;
+    top: -1000px;
+
+    background-color: blueviolet;
+    padding: 5px;
+    font-size: smaller;
+
+    text-decoration: none;
+    color: white;
+}
+
+.skip-link:focus {
+    position: absolute;
+    top: 5px;
+}
+
+.top-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 20%;
+    background-color: lavender;
+}
+
+
+.logo {
+    position: absolute;
+    padding: 10px;
+    top: 15px;
+
+    color: black;
+    font-size: 40px;
+    font-weight: bolder;
+    text-decoration: none;
+    font-family: "Annie Use Your Telescope", cursive;
+}
+
+.nav-bar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color:purple;
+}
+
+.nav-button {
+    position: relative;
+    display: inline-block;
+    padding: 20px;
+
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nav-button:hover,
+.nav-button:focus {
+    background-color:rgb(241, 72, 190);
+}
+
+.main-container {
+    top: 150px;
+    position: absolute;
+}
+
+.header {
+    padding: 40px 20px 0px;
+}
